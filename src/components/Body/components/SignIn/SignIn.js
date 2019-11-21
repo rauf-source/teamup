@@ -1,4 +1,6 @@
 import React from 'react';
+import Nav from '../../../Nav/Nav.js'
+import Footer from '../../../Footer/Footer.js'
 import {Link} from 'react-router-dom';
 class SignIn extends React.Component {
 	constructor(){
@@ -14,9 +16,10 @@ handleSubmit=()=>{
 }
 	render(){
 		return(
-			<div>All about sign in BabySignIn
+			<div>
+			<Nav />
 			<Link to="/dashboard">Dashboard</Link>
-			
+			<Footer />
 			</div>
 			)
 	}

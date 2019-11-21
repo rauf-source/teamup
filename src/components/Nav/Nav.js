@@ -7,10 +7,10 @@ class Nav extends React.Component{
 			<div>
 		<nav>
 			<ul className="nav_custom li">
-					<Link to="/"><li>Home</li></Link>
-					<Link to="/signin"><li>Sign In</li></Link>
-					<Link to="/signup"><li>Sign Up</li></Link>
-					<Link to="/about"><li>About</li></Link>
+					<Link className="a" to="/"><li>Home</li></Link>
+					<Link  className="a"to="/signin"><li>Sign In</li></Link>
+					<Link className="a" to="/signup"><li>Sign Up</li></Link>
+					<Link className="a" to="/about"><li>About</li></Link>
 			</ul>
 		</nav>
 	</div>
