@@ -1,4 +1,7 @@
 import React from 'react';
+import Nav from '../../../Nav/Nav.js'
+import Footer from '../../../Footer/Footer.js'
+
 // import Using from './Firestore/Using.js';
 // import firestore from 'irestore.js'
 class SignUp extends React.Component {
@@ -16,7 +19,7 @@ class SignUp extends React.Component {
 		return(
 
 			<div>
-			
+			<Nav />
 				<form>
           <input
             type="text"
@@ -30,6 +33,7 @@ class SignUp extends React.Component {
           />
           <button type="submit">Submit</button>
         </form>
+        <Footer />
 			</div>
 			)
 	}

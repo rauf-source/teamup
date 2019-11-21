@@ -1,6 +1,7 @@
 import React from 'react';
 import team1 from './images/team1.jpg';
 import teamup from './images/team_up.png'
+import Nav from '../../../Nav/Nav.js'
 import './Home.css'
 class Home extends React.Component {
 	constructor(){
@@ -28,6 +29,7 @@ class Home extends React.Component {
 	render(){
 		return(
 			<div className="home">	
+			<Nav />
 				<img class="logo" src={teamup} />
 				<div className="welcome">
 					<h1>Welcome to Team Up</h1>
