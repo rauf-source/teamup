@@ -1,10 +1,8 @@
 import React from 'react';
 import About from './components/About/About.js';
-import Nav from '../../components/Nav/Nav.js';
 import SignIn from './components/SignIn/SignIn.js';
 import SignUp from './components/SignUp/SignUp.js';
 import Home from './components/Home/Home.js';
-import {Link} from 'react-router-dom';
 import './Body.css'
 class Body extends React.Component {
 	constructor(){
@@ -36,8 +34,15 @@ class Body extends React.Component {
 	render(){
 		return(
 	<div>
-		<Nav />
-		<Home />
+		<nav>
+			<ul className="nav_custom li">
+					<li><a className="a" href="#" value="Home" onClick={this.handleAnchorClick}>Home</a></li>
+					<li><a className="a" href="#" value="SignIn" onClick={this.handleAnchorClick}>Sign In</a></li>
+					<li><a className="a" href="#" value="SignUp" onClick={this.handleAnchorClick}>Sign Up</a></li>
+					<li><a className="a" href="#" value="About" onClick={this.handleAnchorClick}>About</a></li>
+			</ul>
+		</nav>
+			<BodyComponents selector={this.state.component}/>
 
 	</div>
 			)
