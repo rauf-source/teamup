@@ -7,6 +7,7 @@ import SignUp from './components/Body/components/SignUp/SignUp.js';
 import Home from './components/Body/components/Home/Home.js';
 import Dashboard from './components/Dashboard/Dashboard.js';
 import Footer from './components/Footer/Footer.js';
+import * as firebase from 'firebase';
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import './App.css';
