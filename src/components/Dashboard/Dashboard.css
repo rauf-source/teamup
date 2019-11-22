@@ -1,0 +1,28 @@
+.othermembers {
+
+		display: flex;
+		border-radius: 50px;
+		background: white;
+		
+		width: 30vw;
+
+}
+.addImg {
+	height: 8vh
+}
+.user {
+	display: flex;
+	font-size: 10px;
+		border-radius: 10px;
+		background: white;
+		padding : .2vh 1vw;
+		width: 30vw;
+}
+.top {
+					display: flex;
+					justify-content : space-around;
+					background: white;
+					vertical-align: center;
+					margin: auto auto 2vh auto;
+					width: 100%;
+}
